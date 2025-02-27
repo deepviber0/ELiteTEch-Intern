@@ -11,53 +11,61 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <style>
-        
+        #vh {
+            background-color: black;
+            padding: 50px;
+            text-align: center;
+        }
+
+        #me {
+            color: aqua;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #con {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        input,
+        textarea {
+            border-radius: 7px;
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            border-radius: 20px;
+            background-color: aqua;
+            height: 40px;
+            width: 180px;
+            font-size: 20px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00d9ff;
+        }
+
+        .center {
+            text-align: center;
+            font-size: 25px;
+            color: aqua;
+        }
+
         nav{
             display: none;
             text-decoration: none;
         }
 
-        #contact{
-            margin-top:200px;
-        }
-
+        
+        
        
-
-        input:focus {
-            color:red;
-            border-color: red;
-            outline: none; 
-        }
-        
-        input, textarea {
-            width: 250px;
-            height: 25px;
-            background: white;
-        }
-
-        textarea {
-            height: 200px;
-        }
-        fieldset{
-            width:100%;
-            height:690px;
-            
-        }
-        
-        
-        fieldset {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 10px;
-            color: #00c8ff;
-        }
-        
-        form {
-            background: linear-gradient(25deg, rgb(5, 10, 10), rgb(7, 33, 7));
-        }
         
         legend {
             color: rgb(14, 223, 251);
@@ -242,11 +250,14 @@
         }
 
         #mainimg{
-            height:220px;
+            height:290px;
+            width:205px;
+            border-radius: 50px;
             margin-top: 50px;
             margin-bottom: 90px;
             z-index: 10;
-            margin-left:110px;
+            margin-left: 95px;
+            
         }
         #mains{
             display: none;
@@ -412,11 +423,12 @@
 
             #mains{
                 display: flex;
-                height:390px;
+                height:450px;
                 background: transparent;
                 margin-top: 110px;
                 margin-bottom: 100px;
                 margin-right: 200px;
+                border-radius: 50px;
                 position: absolute;
                 top:10px;
                 left:950px;
@@ -818,7 +830,9 @@
             #contact h1{
                 color: aqua;
             }
-           
+           #email,textarea{
+            width:530px;
+           }
 
         }
 
@@ -845,7 +859,7 @@
         <br><br><br><br><br><br><br>
         <br><div class="id11" data-aos="fade-right" data-aos-duration="1500">
             <h3  id="i1" style="background-color:transparent"><span style="color:rgb(16, 225, 236)">Hello,</span> It's Me</h3><br></div>
-            <img id="mains" src="new.jpg" alt="image" align="right" >
+            <img id="mains" src="umar1.jpg" alt="image" align="right" >
 
 
         <div class="id12" data-aos="fade-left" data-aos-duration="1500">
@@ -855,84 +869,117 @@
 
         <h3 class="animated-text">And I'm A <span style="color:aqua">Web Developer</span></h3>
         <div id="id13" data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom" data-aos-duration="1500"><p id="desc">Aspiring Web Developer || I'm Passionate About CODING ,<br>
-            And I'm Very Eager And Interested About LEARNING NEW TECHNOLOGIES.</p></div>
+        data-aos-anchor-placement="top-bottom" data-aos-duration="1500"><p id="desc">Aspiring Web Developer | Passionate about Coding & AI <br>
+            | Enthusiastic Learner of Emerging Technologies | Proficient in Python, NumPy, Pandas, and AI Agent Development. </p></div>
 
        <div class="img">
-        <a href="#" id="im1"><i class='bx bxl-linkedin'></i></a>
-        <a href="#" id="im2"><i class='bx bxl-instagram'></i></a>
-        <a href="#" id="im3"><i class='bx bxl-twitter' ></i></a>
+        <a href="https://www.linkedin.com/in/deepviber03shaikumar/" id="im1"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/deep_viber03?igsh=amFka2hpdHowOGRh" id="im2"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/deepviber03shaikumar/" id="im3"><i class='bx bxl-linkedin'></i></a>
         
        </div>
        <br><br>
        <a href="Finale.pdf" download="Umar_CV" class="download-btn">Download CV</a>
 <br>
 
-<img id="mainimg" src="new.jpg" alt="image" >
+<img id="mainimg" src="umar1.jpg" alt="image" >
 
 
     </div>
     <section id="about">
         <h1 id="abouth1"  data-aos="fade-right" data-aos-duration="1500">About Me</h1>
         <p style="color:white" data-aos="fade-up" data-aos-duration="1500">
-            Hello! I'm Umar, an aspiring web developer at the start of my journey, building skills and exploring the exciting <br>possibilities in tech. My focus is on creating clean, functional websites that offer a smooth user experience.<br>
+            Hello! I'm Umar, an aspiring web developer passionate about building clean, functional, <br>and user-friendly websites.I thrive on the blend of creativity and logic that web development offers, allowing me <br>to bring ideas to life through code.
 
-I’m drawn to web development for the blend of creativity and logic it offers, allowing me to bring ideas to life on the screen.<br><br>Although I’m still building my foundation, I'm excited about learning new technologies and tackling challenges <br>that will help me grow.
+Beyond web development, I have a strong interest in AI and enjoy exploring<br>its potential to create intelligent solutions.I’m always eager to learn new technologies, tackle challenges, and <br>expand my expertise in both web and AI development.Outside of coding, I have a love for skating, which keeps me<br>active and inspired.
 
-Beyond coding, I have a passion for anime, which has also inspired some of my projects.<br> My portfolio is a way to share my journey and connect with others who share similar interests.
+My portfolio reflects my journey, growth, and dedication to the tech world,<br>and I look forward to connecting with like-minded individuals.
         </p>
     </section>
     <section id="skills">
         <h1 data-aos="fade-down" data-aos-duration="1500">Skills</h1>
-        <p >
-           
-           <p id="pp" data-aos="fade-right" data-aos-duration="1500"> ➢ I Am Proficient In A Range Of Technologies And Programming Languages, Including HTML, CSS, And JavaScript <br> For Web Development, As Well As Java, Python, And C For Versatile Software Solutions.</><br></p>
-           <p id="pp" data-aos="fade-left" data-aos-duration="1500"> ➢ I Am Currently Expanding My Skill Set By Pursuing The MERN Stack,<br> Deepening My Knowledge In Full-Stack Web Development.<br>
-           </p>
-           <p id="pp" data-aos="fade-right" data-aos-duration="1500">            ➢ My Expertise Also Extends To Using Tkinter For GUI Development And Figma For Design,<br> Allowing Me To Create Intuitive, User-Friendly Interfaces.<br>
-           </p>
-           <p id="pp" data-aos="fade-left" data-aos-duration="1500">            ➢ I Value Consistency In My Work, Ensuring That Every Project Maintains A High Standard From Start To Finish.<br>
-           </p>
-           <p id="pp" data-aos="fade-right" data-aos-duration="1500"> ➢ My Logical Problem-Solving Abilities Enable Me To Approach Challenges Creatively, Ensuring Effective<br> Solutions That Align With Project Goals.
-           </p>
+        <p>
+            <p id="pp" data-aos="fade-right" data-aos-duration="1500">
+                ➢ I am proficient in a range of technologies and programming languages, including HTML, CSS, and JavaScript 
+                for web development, as well as Java, Python, and C for versatile software solutions.
+            </p>
+            
+            <p id="pp" data-aos="fade-left" data-aos-duration="1500">
+                ➢ I am currently expanding my skill set by pursuing the MERN stack, deepening my knowledge in full-stack web development 
+                and backend technologies with Node.js and Express.js.
+            </p>
+            
+            <p id="pp" data-aos="fade-right" data-aos-duration="1500">
+                ➢ My expertise extends to using Tkinter for GUI development and Figma for design, 
+                allowing me to create intuitive, user-friendly interfaces.
+            </p>
+            
+            <p id="pp" data-aos="fade-left" data-aos-duration="1500">
+                ➢ I have a strong interest in AI development and have gained experience in building AI agents, 
+                along with working with NumPy and Pandas for data manipulation and analysis.
+            </p>
+            
+            <p id="pp" data-aos="fade-right" data-aos-duration="1500">
+                ➢ I value consistency in my work, ensuring that every project maintains a high standard from start to finish.
+            </p>
+            
+            <p id="pp" data-aos="fade-left" data-aos-duration="1500">
+                ➢ My logical problem-solving abilities enable me to approach challenges creatively, 
+                ensuring effective solutions that align with project goals.
+            </p>
+            
+            <p id="pp" data-aos="fade-right" data-aos-duration="1500">
+                ➢ I am passionate about continuous learning, especially in AI and emerging technologies, 
+                which drives me to explore and innovate in the field.
+            </p>
         </p>
+        
 <div class="icons">
     <i data-aos="fade-up" data-aos-duration="1500" class='bx bxl-java'></i>
     <i class='bx bxl-python' data-aos="fade-down" data-aos-duration="1500"></i>
     <i class='bx bxl-html5' data-aos="fade-up" data-aos-duration="1500"></i>
     <i class='bx bxl-css3' data-aos="fade-down" data-aos-duration="1500"></i>
     <i class='bx bxl-javascript' data-aos="fade-up" data-aos-duration="1500"></i>
-    <i class='bx bxl-react' data-aos="fade-down" data-aos-duration="1500"></i>
+    <i class='bx bxl-php' data-aos="fade-down" data-aos-duration="1500"></i>
+    <i class='bx bxl-react' data-aos="fade-up" data-aos-duration="1500"></i>
     <i class='bx bxl-mongodb' data-aos="fade-up" data-aos-duration="1500"></i>
     <i class='bx bxl-nodejs' data-aos="fade-down" data-aos-duration="1500"></i>
     <i class='bx bxl-figma' data-aos="fade-up" data-aos-duration="1500"></i>
 </div>
 
     </section><br>
-    <section id="contact" data-aos="fade-down" data-aos-duration="1500">
-   
-        <form action="https://api.web3forms.com/submit" method="POST" onsubmit="return sub(event)">
-            <fieldset>
-                <h1>Contact Me <i class='bx bxs-envelope'></i></h1>
-                <br>
-    
-               
-                    <input type="hidden" name="access_key" value="f4bf5b2a-790a-4cfe-9587-1c686fc68109">
-    
-                <label for="name"></label>
-                <input type="text" placeholder="user_name" name="name" id="name" required><br><br>
-                <label for="mail"></label>
-                <input type="email" name="mail" placeholder="example@gmail.com" id="mail" required><br><br>
-    
-                <label for="message"></label>
-                <textarea id="message" placeholder="Communication Here!" name="message" required></textarea><br><br>
-    
-                <input type="submit" id="submit">
-                
-            </fieldset>
+    <!----->
+
+    <footer id="vh">
+        <h1>&nbsp;</h1><br><br>
+        <h3 class="center">Wonna Contact Me ?</h3>
+        <section id="con">
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="f4bf5b2a-790a-4cfe-9587-1c686fc68109">
+
+
+
+                <input type="text" id="username" placeholder="Full_Name" name="Username" required>
+
+                <input type="text" id="mobile" placeholder="Mobile_Num" name="Mobile" required><br>
+
+                <input type="email" id="email" placeholder="@gmail.com" name="Email" required><br><br>
+
+
+
+
+                <textarea name="message" rows="10" cols="44" placeholder="A Description In Your Words:-" required></textarea><br><br>
+
+        </section>
+        <div id="con">
+            <button id="send">Send Message</button>
+        </div>
         </form>
-    
-    </section>
+    </footer>
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
