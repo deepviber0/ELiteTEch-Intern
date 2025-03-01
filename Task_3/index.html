@@ -14,11 +14,11 @@
     <style>
         #reason {
             color: rgb(6, 244, 244);
-            margin-top: 290px;
+            margin-top: 240px;
             font-size: 26px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin-bottom: 0px;
-           margin-left: 14px;
+            margin-left: 14px;
         }
 
         .outer-container {
@@ -43,11 +43,33 @@
             width: 250px;
             flex-direction: column;
             text-align: center;
+            background: rgba(92, 193, 244, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(8.5px);
+            -webkit-backdrop-filter: blur(8.5px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
         }
 
+        .event h3{
+        
+            color: #e9eeef;
+           
+        }
 
+        .event:hover {
+            background: rgba(210, 219, 223, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(8.5px);
+            -webkit-backdrop-filter: blur(8.5px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
 
-
+        .event a{
+            color: antiquewhite;
+            text-decoration: none;
+        }
 
         #vh {
             background-color: black;
@@ -257,7 +279,7 @@
             right: 70px;
         }
 
-        #about{
+        #about {
             margin-left: 14px;
             margin-top: 215px;
             margin-bottom: 44px;
@@ -314,11 +336,11 @@
         #mainimg {
             height: 290px;
             width: 290px;
-            
+
             margin-top: 50px;
             margin-bottom: 90px;
             z-index: 10;
-            margin-left: 90px;
+            margin-left: 80px;
 
         }
 
@@ -333,7 +355,6 @@
 
         body {
             overflow-x: hidden;
-            /* Allow vertical scrolling */
             background-color: black;
         }
 
@@ -500,17 +521,18 @@
             margin-top: 0;
             background-color: #080707;
             height: 600px;
-            
-            
+
+
         }
 
         @media screen and (min-width: 768px) {
 
 
 
-            #out{
+            #out {
                 height: 700px;
             }
+
             .inner-container {
                 margin-bottom: 320px;
                 display: flex;
@@ -539,7 +561,7 @@
                 transform: translate(10, 950);
             }
 
-            
+
             #about {
                 margin-left: 150px;
                 margin-top: 35px;
@@ -1005,10 +1027,10 @@
                 justify-content: space-around;
 
             }
-            
+
 
             #reason {
-                
+
                 margin-left: 420px;
                 margin-top: 35px;
             }
@@ -1126,10 +1148,10 @@
             which drives me to explore and innovate in the field.
         </p>
         </p>
-       
+
 
         <div class="icons">
-           
+
             <i data-aos="fade-up" data-aos-duration="1500" class='bx bxl-java'></i>
             <i class='bx bxl-python' data-aos="fade-down" data-aos-duration="1500"></i>
             <i class='bx bxl-html5' data-aos="fade-up" data-aos-duration="1500"></i>
@@ -1144,38 +1166,32 @@
         <p id="projects"></p>
     </section><br>
 
-    
+
     <section id="out">
-        
+
         <h1 data-aos="fade-down" data-aos-duration="1500" id="reason">Projects</h1>
         <div class="oouter-container">
-            
+
 
             <div class="inner-container">
 
-                <div class="event" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                    <h3>Weather Checker</h3>
-                    <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task2/index.html">TAP Here</a>
+                <div class="event" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <h3>MockMate AI Agent</h3>
+                    <a href="https://studio.lyzr.ai/agent/67be09a743b8c248107b920a/">TAP Here</a>
+
                 </div>
-                <div class="event" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                    <h3>Weather Checker</h3>
-                    <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task2/index.html">TAP Here</a>
+                <div class="event" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <h3>Calculator</h3>
+                    <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task1/">TAP Here</a>
                 </div>
-                <div class="event" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                    <h3>Weather Checker</h3>
-                    <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task2/index.html">TAP Here</a>
+                <div class="event" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <h3>Expense Tracker</h3>
+                    <a href="https://deepviber0.github.io/ExpenseTracker/">TAP Here</a>
                 </div>
-                <div class="event" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
+                <div class="event" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <h3>Weather Checker</h3>
                     <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task2/index.html">TAP Here</a>
+
                 </div>
             </div>
         </div>
