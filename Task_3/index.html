@@ -18,7 +18,7 @@
             font-size: 26px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin-bottom: 0px;
-           
+           margin-left: 14px;
         }
 
         .outer-container {
@@ -202,7 +202,7 @@
 
         #about {
 
-            height: 700px;
+            height: 620px;
         }
 
         nav a {
@@ -257,10 +257,10 @@
             right: 70px;
         }
 
-        #about,
-        #projects {
+        #about{
             margin-left: 14px;
-            margin-top: 30px;
+            margin-top: 215px;
+            margin-bottom: 44px;
         }
 
 
@@ -318,7 +318,7 @@
             margin-top: 50px;
             margin-bottom: 90px;
             z-index: 10;
-            margin-left: 95px;
+            margin-left: 90px;
 
         }
 
@@ -380,7 +380,7 @@
             overflow: hidden;
             border-right: 2px solid #15ebfa;
             /* Cursor effect */
-            animation: typing 7s steps(40, end) infinite;
+            animation: typing 8s steps(40, end) infinite;
             margin-bottom: 0%;
             position: relative;
         }
@@ -392,7 +392,7 @@
             }
 
             50% {
-                width: 220px;
+                width: 210px;
             }
 
             100% {
@@ -497,14 +497,27 @@
         }
 
         .home1 {
+            margin-top: 0;
             background-color: #080707;
             height: 600px;
+            
+            
         }
 
         @media screen and (min-width: 768px) {
 
 
 
+            #out{
+                height: 700px;
+            }
+            .inner-container {
+                margin-bottom: 320px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
 
 
             nav {
@@ -526,7 +539,7 @@
                 transform: translate(10, 950);
             }
 
-            #projects,
+            
             #about {
                 margin-left: 150px;
                 margin-top: 35px;
@@ -534,7 +547,7 @@
 
             .home1 {
                 background-color: #080707;
-                height: 650px;
+                height: 730px;
             }
 
             nav a {
@@ -658,7 +671,7 @@
                 }
 
                 50% {
-                    width: 300px;
+                    width: 280px;
                 }
 
                 100% {
@@ -985,15 +998,19 @@
             }
 
             .event {
-                margin-bottom: 320px;
+                margin-top: 0px;
+                padding-top: 0px;
+                margin-bottom: 200px;
+                gap: 65px;
                 justify-content: space-around;
 
             }
+            
 
             #reason {
-
+                
                 margin-left: 420px;
-
+                margin-top: 35px;
             }
         }
     </style>
@@ -1032,7 +1049,7 @@
         <br>
 
 
-        <h3 class="animated-text">And I'm A <span style="color:aqua">Web Developer</span></h3>
+        <h3 class="animated-text">And I'm A <span style="color:aqua">Tech Explorer</span></h3>
         <div id="id13" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
             <p id="desc">Aspiring Web Developer | Passionate about Coding & AI <br>
                 | Enthusiastic Learner of Emerging Technologies | Proficient in Python, NumPy, Pandas, and AI Agent
@@ -1109,8 +1126,10 @@
             which drives me to explore and innovate in the field.
         </p>
         </p>
+       
 
         <div class="icons">
+           
             <i data-aos="fade-up" data-aos-duration="1500" class='bx bxl-java'></i>
             <i class='bx bxl-python' data-aos="fade-down" data-aos-duration="1500"></i>
             <i class='bx bxl-html5' data-aos="fade-up" data-aos-duration="1500"></i>
@@ -1124,29 +1143,37 @@
         </div>
         <p id="projects"></p>
     </section><br>
-    <!----->
 
-    <section>
-
+    
+    <section id="out">
+        
+        <h1 data-aos="fade-down" data-aos-duration="1500" id="reason">Projects</h1>
         <div class="oouter-container">
-
-            <h1 data-aos="fade-down" data-aos-duration="1500" id="reason">Projects</h1>
+            
 
             <div class="inner-container">
 
-                <div class="event">
+                <div class="event" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <h3>Weather Checker</h3>
                     <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task2/index.html">TAP Here</a>
                 </div>
-                <div class="event">
+                <div class="event" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <h3>Weather Checker</h3>
                     <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task2/index.html">TAP Here</a>
                 </div>
-                <div class="event">
+                <div class="event" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <h3>Weather Checker</h3>
                     <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task2/index.html">TAP Here</a>
                 </div>
-                <div class="event">
+                <div class="event" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <h3>Weather Checker</h3>
                     <a href="https://deepviber0.github.io/UnifiedMentor/Basic/Task2/index.html">TAP Here</a>
                 </div>
@@ -1158,7 +1185,7 @@
 
 
 
-
+    <p id="contact"></p>
     <footer id="vh">
         <h1>&nbsp;</h1><br><br>
         <h3 class="center">Wonna Contact Me ?</h3>
@@ -1184,7 +1211,7 @@
 
         </section>
         <div id="con">
-            <button id="send">Send Message</button>
+            <button id="send">Let's Connect</button>
         </div>
         </form>
     </footer>
